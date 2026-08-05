@@ -9,15 +9,15 @@ A self-initiated data engineering project simulating a bank's real-time transact
         ↓ <br>
    [Apache Kafka / Amazon MSK]  →  [Kafka Consumer → S3 raw zone] <br>
         ↓ <br>
-[Stream Processor: Kafka Streams / Flink / Kinesis Data Analytics]
-   → real-time fraud rules, running aggregates
-        ↓
-   [S3 processed zone] → [AWS Glue Crawler + ETL Jobs]
-        ↓
-   [Athena / Redshift Spectrum] → [QuickSight Dashboard]
-        ↓
-[Orchestration: Airflow (MWAA) or Step Functions]
-[IaC: Terraform]   [CI/CD: GitHub Actions]   [Monitoring: CloudWatch]
+[Stream Processor: Kafka Streams / Flink / Kinesis Data Analytics] <br>
+   → real-time fraud rules, running aggregates <br>
+        ↓ <br>
+   [S3 processed zone] → [AWS Glue Crawler + ETL Jobs] <br>
+        ↓ <br>
+   [Athena / Redshift Spectrum] → [QuickSight Dashboard] <br>
+        ↓ <br>
+[Orchestration: Airflow (MWAA) or Step Functions]<br>
+[IaC: Terraform]   [CI/CD: GitHub Actions]   [Monitoring: CloudWatch]<br>
 
 ## Tech Stack
 - Apache Kafka (Docker)
