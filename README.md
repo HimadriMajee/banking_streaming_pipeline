@@ -19,7 +19,7 @@ A self-initiated data engineering project simulating a bank's real-time transact
 <br>
 [IaC: Terraform]   [CI/CD: GitHub Actions]   [Monitoring: CloudWatch]
 
-
+![Banking pipeline flow diagram](docs/images/flow-diagram.png)
 
 ## Tech Stack
 - Apache Kafka (Docker)
