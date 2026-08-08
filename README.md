@@ -19,6 +19,7 @@ A self-initiated data engineering project simulating a bank's real-time transact
 <br>
 [IaC: Terraform]   [CI/CD: GitHub Actions]   [Monitoring: CloudWatch]
 
+![Banking pipeline flow diagram](C:/Users/Himadri/Desktop/Data Engineering Project/banking_streaming_pipeline/banking_pipeline_flow_diagram.png)
 
 
 ## Tech Stack
